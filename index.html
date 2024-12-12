@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polling App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Polling App</h1>
+    <p>
+      Pilih satu nama untuk setiap kategori. Nama yang dipilih tidak bisa
+      dipilih lagi di kategori lain.
+    </p>
+    <form id="pollForm">
+      <div id="categories">
+        <!-- Loop untuk kategori -->
+        <div class="category">
+          <h2>PALING DRAMA QUEEN / KING</h2>
+          <select name="category1" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>PELAWAK TERSELUBUNG</h2>
+          <select name="category2" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>MASTERCHEF MENDADAK</h2>
+          <select name="category3" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>Mr / Mrs MOOD SWING</h2>
+          <select name="category4" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>JAGONYA GOSIP</h2>
+          <select name="category5" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>MANUSIA SERBA BISA</h2>
+          <select name="category6" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>PANDAI BERHEMAT</h2>
+          <select name="category7" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>SANG PETUALANG</h2>
+          <select name="category8" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <div class="category">
+          <h2>PENGUASA PANGGUNG KARAOKE</h2>
+          <select name="category9" class="category-select">
+            <option value="" disabled selected>Pilih...</option>
+          </select>
+        </div>
+        <!-- Tambahkan kategori lainnya -->
+      </div>
+      <button type="submit">Kirim</button>
+    </form>
+    <p id="resultMessage" style="display: none">Hasil polling telah dikirim!</p>
+    <script src="script.js"></script>
+  </body>
+</html>
